@@ -1,5 +1,6 @@
 {
   "name": "nate-site",
+  "homepage": "http://natebcollins.com/portfolio/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
