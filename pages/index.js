@@ -29,7 +29,7 @@ export default function Home() {
             {/* Text */}
             <div className='flex flex-col font-semibold mx-16  text-purplegray-1' >
               <div>Hello!</div>
-              <div className='max-w-[280px] '>I'm Nate, software engineer, web developer, app builder and game maker. I take enourmous joy in finding elegant solutions to complicated conundroms. </div>
+              <div className='max-w-[280px] tracking-wider '>I'm Nate, software engineer, web developer, app builder and game maker. I take enourmous joy in finding elegant solutions to complicated conundroms. </div>
               <div></div>
 
             </div>
