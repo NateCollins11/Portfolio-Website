@@ -8,14 +8,14 @@ export const Navbar = () => {
     const navItems = [
         {
             label: 'About',
-            link: '/about'
+            link: '/'
         },
         {
             label: 'Projects',
             link: '/projects'
         },
         {
-            label: 'Resume',
+            label: 'Resumé',
             link: '/resume'
         },
         

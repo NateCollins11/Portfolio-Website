@@ -21,11 +21,11 @@ export const StyleSelect = () => {
             height: 64
         },
         openState: {
-            borderColor: '#391c1d',
+            borderColor: '#2C1515',
             color: '#acacac',
             width: 200,
             height: 260,
-            backgroundColor: '#391c1d',
+            backgroundColor: '#2C1515',
         },
         closedState: {
             width: 80,
@@ -61,13 +61,13 @@ export const StyleSelect = () => {
             className: 'bg-gradient-to-tl from-[#4f3f43e4] to-[#cfbbc7e4] text-[#2D141A]  hover:text-[#cfbbc7e4]'
         },
         {
-            theme: 'Gallery'
+            theme: 'Coming Soon'
         },
         {
-            theme: 'Business'
+            theme: 'Coming Soon'
         },
         {
-            theme: 'Wellness'
+            theme: 'Coming Soon'
         },
 
     ]
@@ -80,7 +80,7 @@ export const StyleSelect = () => {
             animate={isOpen ? 'openState' : 'closedState'}
             variants={variants}
             transition = {{ duration: 0.5 }}
-            className={`py-4 rounded-md border-2 border-transparent text-transparent absolute top-0 left-0 ${isOpen ? 'shadow-sm shadow-gray-3 ' : ''}`}
+            className={`py-4 rounded-md border-2 border-transparent text-transparent absolute top-0 left-0 ${isOpen ? 'shadow-md shadow-gray-3 ' : ''}`}
         >
             
             <div className='flex w-full justify-between items-center text-lg px-6'>
